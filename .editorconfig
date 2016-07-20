@@ -1,0 +1,19 @@
+# Place this file in the project's root directory
+
+# top-most EditorConfig file
+root = true
+
+# Set default charset
+# Remove whitespace preceding newline
+# Unix-style newline
+# Newline ends every file
+[*]
+charset = utf-8
+trim_trailing_whitespace = true
+end_of_line = lf
+insert_final_newline = true
+
+# Indentation override for package.json and JS
+[{package.json},**.js]
+indent_style = space
+indent_size = 2
